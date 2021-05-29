@@ -77,5 +77,5 @@ if st.button('Predict'):
     
     prediction = predict_rating(model, features_df)
     
-    st.write(' Based on feature values, the car star rating is '+ str(int(prediction)))
+    st.write(' Based on feature values, the diamond price is '+ str(int(prediction)))
     
