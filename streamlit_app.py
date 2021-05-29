@@ -26,7 +26,7 @@ st.write('This is a web app to predict the price of the diamond based on\
         see the prediction of the regressor.')
 
                         
-Carat Weight        = st.sidebar.number_input(label = 'Carat Weight',
+Carat Weight = st.sidebar.number_input(label = 'Carat Weight',
                         value = 2)
                         
 Cut = st.sidebar.selectbox(
