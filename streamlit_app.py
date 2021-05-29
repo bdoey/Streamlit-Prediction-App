@@ -27,7 +27,7 @@ st.write('This is a web app to predict the price of the diamond based on\
 
                         
 Carat Weight = st.sidebar.number_input(label = 'Carat Weight',
-                        value = 2)
+                        value = 2.0)
                         
 Cut = st.sidebar.selectbox(
     "Cut",
