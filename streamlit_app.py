@@ -60,8 +60,8 @@ Report = st.sidebar.selectbox(
 )
 
 
-
-features = {'Carat Weight':Carat Weight,
+# 'Carat Weight':Carat Weight,
+features = { 
             'Cut':Cut,
             'Color':Color,
 'Clarity':Clarity,
