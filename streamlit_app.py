@@ -16,7 +16,7 @@ def predict_rating(model, df):
     
     return predictions_data['Label'][0]
     
-model = load_model('diamond_random_forest_regressor')
+model = load_model('GBM_2_AutoML_1_20230212_144417')
 
 
 st.title('Diamond Price Prediction Web App')
