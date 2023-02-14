@@ -16,7 +16,7 @@ def predict_rating(model, df):
     
     return predictions_data['Label'][0]
     
-model = load_model('diamond_random_forest_regressor.pkl')
+model = load_model('diamond_random_forest_regressor')
 
 
 st.title('Diamond Price Prediction Web App')
