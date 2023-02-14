@@ -15,8 +15,12 @@ def predict_rating(model, df):
     predictions_data = predict_model(estimator = model, data = df)
     
     return predictions_data['Label'][0]
+
+
+import tensorflow as tf
+import keras
     
-model = load_model('ann_model')
+model = keras.models.load_model('ann_model.h5')
 
 
 st.title('Diamond Price Prediction Web App')
