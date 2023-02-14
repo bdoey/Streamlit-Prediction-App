@@ -2,3 +2,5 @@ pycaret
 streamlit
 pandas
 numpy
+tensorflow
+keras
